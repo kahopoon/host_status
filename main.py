@@ -3,12 +3,12 @@ from threading import Thread
 from Queue import Queue
 
 host_list = {
-			"Server A":"192.168.0.1",
-			"Server B":"192.168.0.2"
-			"Host 1":"192.168.0.100",
-			"Host 2":"192.168.0.101",
-			"Host 3":"192.168.0.102"
-			}
+	"Server A":"192.168.0.1",
+	"Server B":"192.168.0.2"
+	"Host 1":"192.168.0.100",
+	"Host 2":"192.168.0.101",
+	"Host 3":"192.168.0.102"
+}
 
 host_status = dict.fromkeys(host_list, 0)
 
