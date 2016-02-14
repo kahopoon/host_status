@@ -1,5 +1,6 @@
 # host_status
 check list of hosts, return up/down status in json format by stdout.
+multi threads on ping requests for instant result
 
 # Example
 
